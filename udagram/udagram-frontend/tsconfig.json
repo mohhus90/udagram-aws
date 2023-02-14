@@ -11,17 +11,17 @@
     "experimentalDecorators": true,
     "importHelpers": true,
     "target": "es5",
+    "skipLibCheck": true,
+    "lib": ["es2015", "dom"], 
+    "paths": {
+      "tslib" : ["path/to/node_modules/tslib/tslib.d.ts"],
     "typeRoots": [
       "node_modules/@types"
-    ],
-    "lib": [
-      "es2018",
-      "dom"
-    ],
-    "skipLibCheck": true
-  },
-  "exclude": [
-    "node_modules",
-    "typings"
-  ]
+    ]
+    },
+    "exclude": [
+      "node_modules",
+      "typings"
+    ]
+  }
 }
