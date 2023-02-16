@@ -4,7 +4,7 @@ This project is part of the Udacity FullStack JavaScript nanodegree. The code wa
 
 The project is available at
 
-http://udagramfrontendbucket.s3-website-us-east-1.amazonaws.com
+http://udagram-bucket-231850289876.s3-website-us-east-1.amazonaws.com/
 
 See additional documentation in the documentation folder.
 
@@ -27,6 +27,7 @@ See additional documentation in the documentation folder.
 ![PostgreSQL RDS database](./Screenshots/RDS.png)
 
 ### CircleCI Pipeline
+#### Build
 
 ![CircleCI Pipeline](./Screenshots/circleci_all_pass.png)
 
@@ -47,6 +48,11 @@ See additional documentation in the documentation folder.
 ![CircleCI Pipeline](./Screenshots/circleci_8_pass.png)
 
 ![CircleCI Pipeline](./Screenshots/circleci_9_pass.png)
+
+#### Deploy
+![CircleCI Pipeline](./Screenshots/circleci_all_deploy_pass.png)
+
+![CircleCI Pipeline](./Screenshots/circleci_8_deploy_pass.png)
 
 ### Architecture
 

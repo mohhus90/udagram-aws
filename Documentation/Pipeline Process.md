@@ -11,8 +11,14 @@ The pipeline is setup and connected with this GitHub repository in CircleCI.
 5. Front-End Lint
 6. Front-End Build
 7. API Build
-8. Deploy App
+8. Deploy App (requires aproval)
 
 ## Steps
 
+### Build
 ![Pipeline Schema](../Screenshots/circleci_all_pass.png)
+
+### Deploy
+![Pipeline Schema](../Screenshots/circleci_all_deploy_pass.png)
+
+
