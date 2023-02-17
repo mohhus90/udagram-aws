@@ -54,6 +54,9 @@ See additional documentation in the documentation folder.
 
 ![CircleCI Pipeline](./Screenshots/circleci_8_deploy_pass.png)
 
+#### Enviroment variables
+![Enviroment variables](./Screenshots/Envirment_variables.png)
+
 ### Architecture
 
 ![Architecture](./Screenshots/Architecture.png)

@@ -22,3 +22,8 @@ The pipeline is setup and connected with this GitHub repository in CircleCI.
 ![Pipeline Schema](../Screenshots/circleci_all_deploy_pass.png)
 
 
+## Schema
+
+![Pipeline Schema](../Screenshots/pipeline.png)
+
+
