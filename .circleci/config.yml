@@ -74,6 +74,7 @@ workflows:
   udagram:
     jobs:
       - build
+          context: my_context_name
       - hold:
           filters:
             branches:
@@ -85,10 +86,3 @@ workflows:
       - deploy:
           requires:
             - hold
-
-
-workflows:
-  test-env-vars:
-    jobs:
-      - build:
-          context: my_context_name # has an env var called MY_ENV_VAR
