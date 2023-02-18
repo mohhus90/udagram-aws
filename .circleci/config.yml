@@ -10,7 +10,6 @@ jobs:
     docker:
       # the base image can run most needed actions with orbs
       - image: "cimg/node:14.15"
-      - context: my_var
     steps:
       # install node and checkout code
       - node/install:
@@ -86,3 +85,10 @@ workflows:
       - deploy:
           requires:
             - hold
+
+
+workflows:
+  test-env-vars:
+    jobs:
+      - build:
+          context: my_context_name # has an env var called MY_ENV_VAR
