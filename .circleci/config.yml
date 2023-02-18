@@ -10,6 +10,7 @@ jobs:
     docker:
       # the base image can run most needed actions with orbs
       - image: "cimg/node:14.15"
+      - context: my_var
     steps:
       # install node and checkout code
       - node/install:
@@ -48,6 +49,10 @@ jobs:
           command: |
             echo "TODO: Build the backend API"
             npm run api:build
+        
+      - run:
+          command: eb setenv context
+           
   # deploy step will run only after manual approval
   deploy:
     docker:
@@ -69,8 +74,6 @@ jobs:
 workflows:
   udagram:
     jobs:
-      - env:
-          context: my_var
       - build
       - hold:
           filters:
