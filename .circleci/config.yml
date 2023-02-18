@@ -69,6 +69,8 @@ jobs:
 workflows:
   udagram:
     jobs:
+      - env:
+          context: my_var
       - build
       - hold:
           filters:
