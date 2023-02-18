@@ -48,9 +48,6 @@ jobs:
           command: |
             echo "TODO: Build the backend API"
             npm run api:build
-        
-      - run:
-          command: eb setenv context
            
   # deploy step will run only after manual approval
   deploy:
